@@ -25,3 +25,12 @@ And to take down the deployment:
 ```bash
 just cleanup
 ```
+
+#### Admin Nav
+
+The just command will output the link to create an account. Once you do that you will be directed to the admin page.
+
+If you want to change the theme, you go to Settings -> Theme -> Change Theme -> Installed.
+
+When you make changes to the them, the Justfile automatically bundles the theme and loads it into the deployment container. So it will automatically be uploaded
+to the Installed Themes area.
