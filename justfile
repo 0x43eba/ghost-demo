@@ -6,10 +6,10 @@ zip-themes:
 run: zip-themes
     @echo "Bootstrapping Ghost in Docker..."
     docker compose up -d
-    @echo "Done!"
+    @echo "Done! Go to http://localhost:2368/ghost to setup"
 
 cleanup:
     @echo "Cleaning up..."
     @rm -f sample.zip
     docker compose down
-    @echo "Done!"
+    @echo "Cleanup done"
