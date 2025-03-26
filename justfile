@@ -11,5 +11,15 @@ run: zip-themes
 cleanup:
     @echo "Cleaning up..."
     @rm -f sample.zip
+    @rm -rf content/apps/
+    @rm -rf content/data/
+    @rm -rf content/files/
+    @rm -rf content/images/
+    @rm -rf content/logs/
+    @rm -rf content/media/
+    @rm -rf content/public/
+    @rm -rf content/settings/
+    @rm -rf content/themes/casper
+    @rm -rf content/themes/source
     docker compose down
     @echo "Cleanup done"
