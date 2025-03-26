@@ -4,7 +4,7 @@ Super barebones setup for Ghost. This will create a deployment, running the defa
 it's best to play around with Casper. It has all the features enabled. It also includes a theme, "Sample", which will let you mess around
 with how the CSS works. The sample theme is just a blank HTML and CSS setup, so you can use it as a blank canvas to test things.
 
-Here's a link to the Ghost specific Handlebars flavor -- be advised, it's different than the bog-standard you may be used to.
+Here's a [link to the Ghost specific Handlebars flavor](https://ghost.org/docs/themes/helpers/) -- be advised, it's different than the bog-standard you may be used to.
 
 #### Getting started
 
