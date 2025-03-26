@@ -1,6 +1,53 @@
 body {
-    font-family: sans-serif;
+    font-family: system-ui, sans-serif;
+    background: #f9f9f9;
+    color: #333;
+    margin: 0;
+    padding: 2rem;
+    line-height: 1.6;
     max-width: 700px;
-    margin: 2rem auto;
-  }
-  
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    color: #007acc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header {
+    margin-bottom: 2rem;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 1rem;
+}
+
+h1,
+h2,
+h3 {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+article {
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #eee;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 1rem 0;
+}
+
+code {
+    background: #eee;
+    padding: 0.2rem 0.4rem;
+    font-family: monospace;
+    border-radius: 4px;
+}
