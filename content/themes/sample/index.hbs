@@ -1,0 +1,8 @@
+{{! Home Page }}
+{{> header}}
+<h1>Welcome to {{@site.title}}</h1>
+{{#foreach posts}}
+  <article>
+    <h2><a href="{{url}}">{{title}}</a></h2>
+  </article>
+{{/foreach}}
