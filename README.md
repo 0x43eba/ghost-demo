@@ -34,3 +34,9 @@ If you want to change the theme, you go to Settings -> Theme -> Change Theme -> 
 
 When you make changes to the them, the Justfile automatically bundles the theme and loads it into the deployment container. So it will automatically be uploaded
 to the Installed Themes area.
+
+#### Adding Routes
+
+You're going to also want to update the routes. You can find this under settings, then search routes. You will pull up the Labs area. Click that, then
+navigate to the Routes, and select upload routes. Then inside the theme upload the Routes.yaml file. That contains the Grunnstefna link. Right now I 
+have just ported that directly to its own template file. I think doing that on its own, given the content layout, will be a major pain.
