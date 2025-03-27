@@ -1,6 +1,15 @@
 {{#post}}
     <article>
-    <h1>{{title}}</h1>
-    {{content}}
+        <h1>{{title}}</h1>
+        <h2>{{authors limit="1" autolink="false"}}</h2>
+        {{content}}
+
+        {{#has tag="template-one"}}
+            <p>This is a special template for posts tagged with "template-one".</p>
+        {{/has}}
+
+        {{#has tag="template-two"}}
+            <p>This is a special template for posts tagged with "template-two".</p>
+        {{/has}}
     </article>
 {{/post}}
