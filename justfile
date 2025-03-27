@@ -23,3 +23,6 @@ cleanup:
     @rm -rf content/themes/source
     docker compose down
     @echo "Cleanup done"
+
+refresh: cleanup run
+    @echo "Refreshed Ghost in Docker"
