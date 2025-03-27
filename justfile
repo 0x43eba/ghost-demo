@@ -1,6 +1,7 @@
 zip-themes:
     @echo "Zipping themes..."
     @zip -r sample.zip content/themes/sample
+    @zip -r samtok.zip content/themes/samtok
     @echo "Done!"
 
 run: zip-themes
@@ -10,7 +11,7 @@ run: zip-themes
 
 cleanup:
     @echo "Cleaning up..."
-    @rm -f sample.zip
+    @rm -f *.zip
     @rm -rf content/apps/
     @rm -rf content/data/
     @rm -rf content/files/
