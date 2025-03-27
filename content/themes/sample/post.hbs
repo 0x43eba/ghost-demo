@@ -10,6 +10,13 @@
 
         {{#has tag="template-two"}}
             <p>This is a special template for posts tagged with "template-two".</p>
+            <p>You can even put in forms and stuff</p>
+            <form>
+                <label for="input">Input:</label>
+                <input type="text" id="input" name="input">
+                <button type="submit">Submit</button>
+            </form>
+            {{> sample}}
         {{/has}}
     </article>
 {{/post}}

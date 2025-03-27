@@ -1,0 +1,12 @@
+<div>
+{{#if @site.sample}}
+    <div class="sample">
+        {{#if @site.sample.title}}
+            <h1>{{@site.sample.title}}</h1>
+        {{/if}}
+        {{#if @site.sample.description}}
+            <p>{{@site.sample.description}}</p>
+        {{/if}}
+    </div>
+{{/if}}
+</div>
